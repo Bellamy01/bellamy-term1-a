@@ -1,4 +1,7 @@
-package com.rw.sprite;
+package com.rw.sprite.service;
+
+import com.rw.sprite.Calculator;
+import com.rw.sprite.util.InvalidOperatorException;
 
 public class MathOperatorImpl implements MathOperator {
     @Override

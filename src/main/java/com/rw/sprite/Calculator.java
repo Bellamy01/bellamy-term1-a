@@ -1,5 +1,7 @@
 package com.rw.sprite;
 
+import com.rw.sprite.util.InvalidOperatorException;
+
 public class Calculator {
     public double doMath(double op1, double op2, String operation) throws InvalidOperatorException {
         if ("/".equals(operation) && op2 == 0) {

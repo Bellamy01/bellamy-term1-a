@@ -1,4 +1,8 @@
-package com.rw.sprite;
+package com.rw.sprite.api;
+
+import com.rw.sprite.dto.DoMathRequest;
+import com.rw.sprite.service.MathOperator;
+import com.rw.sprite.util.InvalidOperatorException;
 
 @RestController
 public class MathController {

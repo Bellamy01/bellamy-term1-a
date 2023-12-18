@@ -1,5 +1,8 @@
-package com.rw.sprite;
+package com.rw.sprite.unit;
 
+import com.rw.sprite.service.MathOperator;
+import com.rw.sprite.service.MathOperatorImpl;
+import com.rw.sprite.util.InvalidOperatorException;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

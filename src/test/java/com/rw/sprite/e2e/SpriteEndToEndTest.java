@@ -1,4 +1,4 @@
-package com.rw.sprite;
+package com.rw.sprite.e2e;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

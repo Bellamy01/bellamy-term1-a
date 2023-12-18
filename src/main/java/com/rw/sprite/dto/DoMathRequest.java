@@ -1,4 +1,4 @@
-package com.rw.sprite;
+package com.rw.sprite.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
