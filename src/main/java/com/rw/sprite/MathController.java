@@ -11,7 +11,8 @@ public class MathController {
     }
 
     @PostMapping("/doMath")
-    public double doMath(@RequestBody DoMathRequest doMathRequest) throws  InvalidOperatorException {
-        return  mathOperator.doMath(doMathRequest.getOp1(), doMathRequest.getOp2(), doMathRequest.getOperation());
+    public String doMath(@RequestBody DoMathRequest doMathRequest) throws  InvalidOperatorException {
+        double result = mathOperator.doMath(doMathRequest.getOp1(), doMathRequest.getOp2(), doMathRequest.getOperation());
+        return "calcResponse : " + result;
     }
 }

@@ -3,7 +3,7 @@
 <suite name="Testing Sprite classes">
     <test name="Output">
         <classes>
-<!--            <class name="com.rw.sprite.HelloTest"/>-->
+            <class name="com.rw.sprite.MathOperatorUnitTest"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
